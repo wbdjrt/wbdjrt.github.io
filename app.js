@@ -134,7 +134,7 @@ $(document).ready(function(){
 
                 for(var f=0; f<obj[i].social.length; f++){
 
-                    let $sociallink = $("<a href='"+ obj[i].social[f].link +"' ><span class='social-link'> " + obj[i].social[f].icon  + " </span></a>");
+                    let $sociallink = $("<a href='"+ obj[i].social[f].link +"' target='_blank'><span class='social-link'> " + obj[i].social[f].icon  + " </span></a>");
                     $socialcontainer.append($sociallink);
                 }
     
