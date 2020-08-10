@@ -1013,6 +1013,11 @@ footer p{
         display:none !important;
     }
 
+    .what-happened-details {
+        z-index: 1;
+        background: transparent !important;
+    }
+
 }
 
 
