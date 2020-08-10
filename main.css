@@ -216,7 +216,7 @@ a:hover{
     width:22.7%;
     min-height:250px;
     max-height:310px;
-    overflow:scroll;
+    /* overflow:scroll; */
     transition: all ease-in-out .3s;
 }
 
