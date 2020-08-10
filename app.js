@@ -1,7 +1,6 @@
 import * as Donations from './js/donations.js';
 import * as Volunteers from './js/volunteers.js';
 import * as Categories from './js/categories.js';
-import * as Tags from './js/tags.js';
 
 
 $(document).ready(function(){
