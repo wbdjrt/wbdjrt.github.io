@@ -17,10 +17,28 @@ export const list = [
         weburl:"https://offrejoie.org/",
         imgsrc:"assets/imgs/donations/offrejoie.png",
         tags: [],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
         number:""
     }
     ,
@@ -35,10 +53,28 @@ export const list = [
         weburl:"https://www.impactlebanon.org/",
         imgsrc:"assets/imgs/donations/impactlebanon.jpg",
         tags: [],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
         number:""
     }
     ,
@@ -52,10 +88,28 @@ export const list = [
         weburl:"https://www.nusaned.org/en",
         imgsrc:"https://www.nusaned.org/assets/img/logo.png",
         tags: [],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
         number:""
     }
 

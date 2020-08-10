@@ -2,16 +2,19 @@ export const tagslist = [
     
     {
         id:1,
-        name:"Money"
+        name:"Monetary",
+        color:"var(--accent)"
     },
     {
         id:9,
-        name:"Food"
+        name:"Food",
+        color:"var(--secondary)"
     }
     ,
     {
         id:2,
-        name:"Clothes"
+        name:"Clothes",
+        color:"var(--dark)"
     }
 ]
 
@@ -25,11 +28,29 @@ export const list = [
         weburl: "http://www.redcross.org.lb/index.aspx?pageid=907",
         imgsrc: "assets/imgs/donations/lrc.gif",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     }
     ,
     {
@@ -40,11 +61,29 @@ export const list = [
         weburl: "https://dsclebanon.org/",
         imgsrc: "assets/imgs/donations/dsc.jpg",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     }
     ,
     {
@@ -60,11 +99,29 @@ export const list = [
         weburl: "https://www.arcenciel.org/en/",
         imgsrc: "assets/imgs/donations/aec.jpg",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 3,
@@ -77,11 +134,29 @@ export const list = [
         weburl: "https://www.impactlebanon.org/",
         imgsrc: "assets/imgs/donations/impactlebanon.jpg",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 4,
@@ -95,11 +170,29 @@ export const list = [
         weburl: "https://www.stgeorgehospital.org/",
         imgsrc: "assets/imgs/donations/stgeorgehospital.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 5,
@@ -111,11 +204,29 @@ export const list = [
         weburl: "https://lebanonoftomorrow.org/",
         imgsrc: "assets/imgs/donations/LOT.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 6,
@@ -126,11 +237,29 @@ export const list = [
         weburl: "https://www.sesobel.org/",
         imgsrc: "assets/imgs/donations/sesobel.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     }
     ,
     {
@@ -141,11 +270,29 @@ export const list = [
         weburl: "https://lebanesefoodbank.org/",
         imgsrc: "assets/imgs/donations/lfb.png",
         tags: [9,1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 8,
@@ -158,11 +305,29 @@ export const list = [
         weburl: "http://www.caritas.org.lb/",
         imgsrc: "assets/imgs/donations/caritas.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 9,
@@ -175,11 +340,29 @@ export const list = [
         weburl: "https://offrejoie.org/",
         imgsrc: "assets/imgs/donations/offrejoie.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 10,
@@ -190,11 +373,29 @@ export const list = [
         weburl: "https://livelove.org/rebuild_beirut",
         imgsrc: "assets/imgs/donations/liveloverebuildbeirut.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 11,
@@ -207,11 +408,29 @@ export const list = [
         weburl: "https://www.baytnabaytak.com/home",
         imgsrc: "assets/imgs/donations/baytnabaytak.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 12,
@@ -221,11 +440,29 @@ export const list = [
         weburl: "https://www.beitelbaraka.org/",
         imgsrc: "https://www.beitelbaraka.org/wp-content/uploads/2020/06/1-04.png",
         tags: [9, 1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 13,
@@ -235,11 +472,29 @@ export const list = [
         weburl: "https://www.actforlebanonusa.org/",
         imgsrc: "https://www.actforlebanonusa.org/wp-content/uploads/2019/12/logo.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     }
     ,
     {
@@ -250,11 +505,29 @@ export const list = [
         weburl: "https://www.lebanonneeds.org/what",
         imgsrc: "assets/imgs/donations/ly.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 15,
@@ -266,11 +539,29 @@ export const list = [
         weburl: "https://www.nusaned.org/en",
         imgsrc: "https://www.nusaned.org/assets/img/logo.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 16,
@@ -280,11 +571,29 @@ export const list = [
         weburl: "https://chanceassociation.org/home",
         imgsrc: "https://bmbc.cloud/storage/companies/logos/web/83544_2019_9_10.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     },
     {
         id: 17,
@@ -297,11 +606,29 @@ export const list = [
         weburl: "https://www.bassma.org/",
         imgsrc: "https://bassma.org/Content/images/ilogo.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
     }
     ,
     {
@@ -312,11 +639,80 @@ export const list = [
         weburl: "https://www.hopital-libanais.com/",
         imgsrc: "https://www.hopital-libanais.com/img/logo.png",
         tags: [1],
-        instagram:"",
-        facebook:"",
-        twitter:"",
-        email:"",
-        number:""
+        social:[
+            // {
+            //     id:"instagram",
+            //     link:"",
+            //     icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"facebook",
+            //     link:"",
+            //     icon:"<i class='fa fa-facebook-square' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"twitter",
+            //     link:"",
+            //     icon:"<i class='fa fa-twitter' aria-hidden='true'></i>"
+            // },
+            // {
+            //     id:"email",
+            //     link:"",
+            //     icon:"<i class='fa fa-envelope-o' aria-hidden='true'></i>"
+            // }
+        ],
+        number:[""]
+    },
+    {
+        id: 19,
+        name: "Box of Life",
+        excerpt: `Donate a box of food or clothes to those affected.`,
+        activeurl: "https://www.instagram.com/boxoflife.lb/",
+        weburl: "https://www.instagram.com/boxoflife.lb/",
+        imgsrc: "assets/imgs/donations/boxoflife.jpg",
+        tags: [9,2],
+        social:[
+            {
+                id:"instagram",
+                link:"https://www.instagram.com/boxoflife.lb/",
+                icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            }
+        ],
+        number:["71960242","71896265", "70454645", "71623692"]
+    },
+    {
+        id: 20,
+        name: "Beautiful People",
+        excerpt: `Social initiative -Not an NGO- Cooking homemade meals, for families in need, with the help of beautifulpeople around us.`,
+        activeurl: "https://www.gofundme.com/f/beautiful-lebanon?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1",
+        weburl: "https://www.instagram.com/beautifulpeople.lebanon/?igshid=166s2f2vadfzx",
+        imgsrc: "https://instagram.fbey14-1.fna.fbcdn.net/v/t51.2885-19/s150x150/87558359_489415971963321_8753865621013266432_n.jpg?_nc_ht=instagram.fbey14-1.fna.fbcdn.net&_nc_ohc=a_f3HWPughcAX-CgdrH&oh=2dfae6e3907b9f8097b7d5bf78daf34c&oe=5F5A8D65",
+        tags: [1,9],
+        social:[
+            {
+                id:"instagram",
+                link:"https://www.instagram.com/beautifulpeople.lebanon/?igshid=166s2f2vadfzx",
+                icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            }
+        ],
+        number:[""]
+    },
+    {
+        id: 21,
+        name: "Dafa Campaign",
+        excerpt: `Dafa is a non-profit organization we supply families in need with essential food,we also have been growing crops for healthy fruits and vegetables.`,
+        activeurl: "https://www.gofundme.com/f/do-more-for-lebanon?utm_source=customer&utm_campaign=p_cp+share-sheet&utm_medium=copy_link-tip",
+        weburl: "https://www.instagram.com/dafacampaign/",
+        imgsrc: "https://instagram.fbey14-1.fna.fbcdn.net/v/t51.2885-19/s150x150/44493157_730987103915099_8190745689966247936_n.jpg?_nc_ht=instagram.fbey14-1.fna.fbcdn.net&_nc_ohc=bm-nefkGBHkAX_Qid1_&oh=c44195d08ab13fb97f08645ce52574e2&oe=5F591698",
+        tags: [1,2,9],
+        social:[
+            {
+                id:"instagram",
+                link:"https://www.instagram.com/dafacampaign/",
+                icon:"<i class='fa fa-instagram' aria-hidden='true'></i>"
+            }
+        ],
+        number:["03837666", "81042422", "76664844"]
     }
 
 

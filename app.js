@@ -66,7 +66,7 @@ $(document).ready(function(){
 
     for(var i = 0; i<Categories.list.length; i++){
         let $menuCategories = $(".categories-list ul");
-        let $currentCategory = $("<li id='" + Categories.list[i].id + "'>" + Categories.list[i].name  + "</li>");
+        let $currentCategory = $("<li id='" + Categories.list[i].id + "'> <span class='categories-list-icons'><img class='categories-list-icon' src='" + Categories.list[i].icon + "' ></span>" + Categories.list[i].name  + "</li>");
         $menuCategories.append($currentCategory);
     }
 
@@ -114,24 +114,29 @@ $(document).ready(function(){
 
             for(var i = 0; i<obj.length; i++){
 
-                let $card = $("<div class='card " + target + "-c' id='"+ obj[i].id +"'></div>");
+                let $card = $("<div class='card c-" + target + "' id='"+ obj[i].id +"'></div>");
 
-
-                if(target == "donations"){
 
 
                     for(var j=0; j<obj[i].tags.length; j++){
                                 let $new = t.find(x => x.id === obj[i].tags[j]);
-                                let $tags = $("<div class='donation-tags' id='" + $new.id + "'>" + $new.name + "</div>");
+                                let $tags = $("<div class='" + target +"-tags tags-pills' id='" + $new.id + "' style='background:" + $new.color + "'>" + $new.name + "</div>");
                                 $card.append($tags);
-                            }
-                }
+                    }
+
 
 
                 let $img = $("<img src='"+ obj[i].imgsrc + "' class='card-img-top'>");
                 let $cardbody = $("<div class='card-body'></div>");
                 let $cardtitle = $("<h5 class='card-title'>"+ obj[i].name +"</h5>");
                 let $cardtext = $("<p class='card-text'>" + obj[i].excerpt + "</p>");
+                let $socialcontainer = $("<div class='social-links-container'></div>");
+
+                for(var f=0; f<obj[i].social.length; f++){
+
+                    let $sociallink = $("<a href='"+ obj[i].social[f].link +"' ><span class='social-link'> " + obj[i].social[f].icon  + " </span></a>");
+                    $socialcontainer.append($sociallink);
+                }
     
                 let $activeurl = $("<a href=" + obj[i].activeurl + " target='_blank'></a>");
                 let $btndonate = $("<button type='button' class='btn btn-success green'>QUICK LINK <i class='fa fa-external-link' aria-hidden='true'></i></button>");
@@ -145,6 +150,8 @@ $(document).ready(function(){
                 $card.append($cardbody);
                 $cardbody.append($cardtitle);
                 $cardbody.append($cardtext);
+                $cardbody.append($socialcontainer);
+
                 
                 $cardbody.append($activeurl);
                 $activeurl.append($btndonate);
@@ -158,7 +165,7 @@ $(document).ready(function(){
 
 
         function ClearCards(target){
-            $( "." + target + "-c" ).remove();
+            $( ".c-" + target ).remove();
         }
 
             //Tags Builder
