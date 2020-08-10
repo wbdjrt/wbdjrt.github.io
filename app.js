@@ -222,6 +222,14 @@ $(document).ready(function(){
         });
 
         
+        $("#toTop").click(function(){
+            $("body,html").animate(
+                {
+                  scrollTop: 0
+                },
+                800 //speed
+              );
+        });
 
 
 
@@ -241,6 +249,13 @@ $(document).ready(function(){
             }
 
         }catch(e){
+
+        }
+
+        if(scroll <= 20){
+            $('#toTop').addClass('hide').removeClass('show-totop');
+        }else{
+            $('#toTop').removeClass('hide').addClass('show-totop');
 
         }
 

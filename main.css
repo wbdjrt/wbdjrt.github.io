@@ -759,6 +759,42 @@ footer p{
     box-shadow: none !important;
 }
 
+
+#toTop{
+    position:fixed;
+    /* z-index:10; */
+    bottom:20px;
+    right:20px;
+    height:fit-content;
+    width:fit-content;
+    background:var(--light);
+    color:var(--dark);
+    font-size:9pt;
+    padding:10px 15px;
+    /* opacity:0.5; */
+    opacity:0;
+    transition:all ease-in-out .3s;
+
+}
+
+#toTop:hover{
+    cursor:pointer;
+}
+
+
+.show-totop{
+    opacity:0.5 !important;
+    z-index:10 !important;
+    transition: all cubic-bezier(.98,.01,.1,1) .4s !important;
+}
+
+
+
+
+
+
+
+
 /* toggle button */
 .inactiveMixin {
     content: "";
