@@ -1022,7 +1022,7 @@ footer p{
     } */
     .bp-card{
         width:100%;
-        /* overflow:hidden !important; */
+        overflow:hidden !important;
         height:fit-content !important;
         max-height:fit-content !important;
         min-height:fit-content !important;
