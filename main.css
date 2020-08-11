@@ -773,8 +773,8 @@ footer p{
     width:fit-content; */
     background:var(--light);
     color:var(--dark);
-    font-size:9pt;
-    padding:10px 15px;
+    font-size:14pt;
+    padding:15px 20px;
     /* opacity:0.5; */
     opacity:0;
     transition:all ease-in-out .3s;
