@@ -67,6 +67,9 @@ $(document).ready(function(){
     for(var i = 0; i<Categories.list.length; i++){
         let $menuCategories = $(".categories-list ul");
         let $currentCategory = $("<li id='" + Categories.list[i].id + "'> <span class='categories-list-icons'><img class='categories-list-icon' src='" + Categories.list[i].icon + "' ></span>" + Categories.list[i].name  + "</li>");
+        if(i == 0){
+            $currentCategory.addClass('active');
+        }
         $menuCategories.append($currentCategory);
     }
 

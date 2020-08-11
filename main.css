@@ -172,6 +172,10 @@ a:hover{
     transition:all ease-in-out .3s;
 }
 
+.bp-nav-menu-line-three{
+    margin-bottom:0 !important;
+}
+
 .menu-container{
     width:300px;
     position:fixed;
@@ -702,7 +706,7 @@ ul {
 .play-video:hover ~ .whathappened-video-container{
     /* background-size:1000% !important; */
    /* background:red !important; */
-   transform:scale(1.1);
+   /* transform:scale(1.1); */
     transition:all ease-in-out .3s;
 }
 
@@ -765,8 +769,8 @@ footer p{
     /* z-index:10; */
     bottom:20px;
     right:20px;
-    height:fit-content;
-    width:fit-content;
+    /* height:fit-content;
+    width:fit-content; */
     background:var(--light);
     color:var(--dark);
     font-size:9pt;
